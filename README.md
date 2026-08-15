@@ -30,3 +30,8 @@ A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://
 npm install
 make
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+

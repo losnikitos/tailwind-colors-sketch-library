@@ -1,6 +1,7 @@
 {
   "name": "tailwind-colors-sketch-library",
   "description": "Tailwind CSS colors for Sketch App",
+  "license": "MIT",
   "scripts": {
     "generate": "node scripts/generate-colors.mjs",
     "build": "make"
