@@ -1,33 +1,24 @@
 # Tailwind Colors for Sketch
 
-[![Download](https://img.shields.io/badge/Download-.sketch-2563eb?style=for-the-badge)](https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch)
+A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://tailwindcss.com/docs/colors) v4 palette as native color variables (`blue-500`, `slate-900`, …).
 
-A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://tailwindcss.com/docs/colors) v4 palette as native color variables.
+## Installation
 
-Colors keep Tailwind’s names (`blue-500`, `slate-900`, `amber-50`), so designers and engineers can talk about the same tokens.
+[Download `tailwind-colors.sketch`](https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch)
 
-## In Sketch
+1. In Sketch, open **Settings…** (`⌘,`).
 
-Add the library, then pick colors from the **Variables** tab. Fills, borders, and text can all link to a Tailwind swatch — for example `blue-500`.
+   ![Open Sketch Settings](doc/step1.png)
 
-![Tailwind color variables in Sketch: the Variables picker showing the amber scale, and the inspector with a blue-500 fill](doc/sketch.png)
+2. Go to **Libraries** and click **Add Local Library…**.
 
-## Palette
+   ![Add Local Library](doc/step2.png)
 
-Every family from the installed Tailwind v4 palette, shades **50–950**, plus **black** and **white**.
+3. Select `tailwind-colors.sketch` and click **Open**.
 
-![Tailwind CSS v4 color palette](doc/palette.svg)
+   ![Select the library file](doc/step3.png)
 
-Variables are named `family-shade` as a flat list (for example `red-100`). The Sketch file also includes a labeled canvas grid of the same swatches.
-
-## Use the library
-
-1. [Download `tailwind-colors.sketch`](https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch), or build it yourself (see below).
-2. In Sketch, go to **Settings → Libraries** and add `tailwind-colors.sketch`.
-3. Select a layer, open the color picker, and switch to **Variables**.
-4. Choose the **tailwind-colors** library and apply a swatch.
-
-Updating the library in Sketch will refresh linked colors in documents that use it.
+Pick colors from the **Variables** tab in the color picker.
 
 ## Build
 
@@ -35,11 +26,3 @@ Updating the library in Sketch will refresh linked colors in documents that use 
 npm install
 make
 ```
-
-That regenerates color variables and the canvas grid from `tailwindcss/colors`, then zips `src/` into `tailwind-colors.sketch`.
-
-```bash
-npm run generate   # Sketch JSON only
-```
-
-Swatch IDs are stable (UUID v5 from the variable name), so regenerating the library does not break existing references.

@@ -13,6 +13,17 @@ const PAGE_ID = '26CE87B1-E43D-4749-BBB6-76E67F170B4C'
 const NAMESPACE = '8e2f1c4a-9b3d-4e7f-a1c0-5d6b8e9f0123'
 
 const SKIP = new Set(['inherit', 'current', 'transparent'])
+const NEUTRAL_FAMILIES = new Set([
+  'slate',
+  'gray',
+  'zinc',
+  'neutral',
+  'stone',
+  'mauve',
+  'olive',
+  'mist',
+  'taupe',
+])
 
 function isPalette(value) {
   return Boolean(value) && typeof value === 'object' && !Array.isArray(value)
@@ -74,6 +85,8 @@ function collectPalette() {
       baseNames.push(name)
     }
   }
+
+  families.sort((a, b) => Number(NEUTRAL_FAMILIES.has(a)) - Number(NEUTRAL_FAMILIES.has(b)))
 
   const shadeKeys = new Set()
   const entries = []

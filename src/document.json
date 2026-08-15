@@ -42,1194 +42,6 @@
     "objects": [
       {
         "_class": "swatch",
-        "do_objectID": "33DF432D-4698-5685-B2F3-BE08BB24475C",
-        "name": "slate-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9731488522540445,
-          "green": 0.9800426054662709,
-          "blue": 0.9869375219463618
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "501B01FC-CD49-510D-A2BD-4AC6FD86E1B3",
-        "name": "slate-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9444747089424705,
-          "green": 0.9604953704340587,
-          "blue": 0.9765152883989353
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "52ABAAD8-559D-58ED-A827-C66545AE3175",
-        "name": "slate-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8859544002236973,
-          "green": 0.9101960351218834,
-          "blue": 0.9425160502172097
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "8B4871B2-B86A-512A-808E-FD1B4D22AB3F",
-        "name": "slate-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.792347876857237,
-          "green": 0.8358279496588404,
-          "blue": 0.887972421651476
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "461BBBAB-8AAB-5A26-8110-BB326257B16F",
-        "name": "slate-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.5648487363231477,
-          "green": 0.6316962763094218,
-          "blue": 0.7252391411445487
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "7394868D-A7EE-583B-8766-8BAD901DE793",
-        "name": "slate-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.38391206804084516,
-          "green": 0.4547872213486916,
-          "blue": 0.5566604979380745
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E8105E11-52CB-595E-B1AD-12D6B537B260",
-        "name": "slate-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2709961605079995,
-          "green": 0.33408154858074934,
-          "blue": 0.42418876964238983
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "250F5671-A0D2-5548-ADCE-922ECBEAE4F2",
-        "name": "slate-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.19350013489640724,
-          "green": 0.25526603914854973,
-          "blue": 0.34348723421124183
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "97A7791F-3D41-526C-9E69-EB6720AD9694",
-        "name": "slate-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.112127710305604,
-          "green": 0.16004398467081418,
-          "blue": 0.2386724894066991
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C5E83AFF-0AE2-5F35-B629-F3D9871C2051",
-        "name": "slate-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.057184323544237504,
-          "green": 0.09004246505833136,
-          "blue": 0.1687959959194234
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "37CE1A9B-CD04-5662-A830-19745FF2C368",
-        "name": "slate-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.007429320741766252,
-          "green": 0.0232817494190336,
-          "blue": 0.09250507951914488
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "802FF41E-32D3-5056-8B9A-92C671F32DC9",
-        "name": "gray-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9763942292220026,
-          "green": 0.9809921701981189,
-          "blue": 0.985589520180738
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "AE1F26C4-F2FF-5190-8408-C6BD2FA48610",
-        "name": "gray-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9528385020410947,
-          "green": 0.956931755763118,
-          "blue": 0.9651184315219944
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "8985DDBA-0793-519E-B98C-9631046533EC",
-        "name": "gray-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8983431377629674,
-          "green": 0.9064381730859454,
-          "blue": 0.9226285306518572
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "8C2E085E-1B53-526E-B23E-20A5DE2BA950",
-        "name": "gray-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8190176740578224,
-          "green": 0.8358148741911838,
-          "blue": 0.8610087609476719
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "320B2138-F003-5E5A-A454-A2E346618310",
-        "name": "gray-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6000088092938519,
-          "green": 0.6313951766141662,
-          "blue": 0.6852225804848497
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "53539A39-BC2C-59C1-B077-5233DAD65A95",
-        "name": "gray-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.4154543457320365,
-          "green": 0.447090970999556,
-          "blue": 0.5104967709257804
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "30C0D166-A200-5456-88FA-5B2C95FC3F44",
-        "name": "gray-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2888334530513584,
-          "green": 0.33354592473228023,
-          "blue": 0.39611636404285216
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "34E6E2EE-4353-59BE-9B2E-B08298ABD412",
-        "name": "gray-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.21153233111089903,
-          "green": 0.2550295890096215,
-          "blue": 0.3247052203348353
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E9E23064-C8D9-5685-91D2-5EB122CF92F1",
-        "name": "gray-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.1169734956178679,
-          "green": 0.16075427591841243,
-          "blue": 0.2220155004790907
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "2830FAA8-8DBF-5C78-A812-1413E440D3AE",
-        "name": "gray-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.06452562744067564,
-          "green": 0.09374159032906396,
-          "blue": 0.15678442228058512
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C86DB485-CD79-5261-9F41-1C63DD1A1DE8",
-        "name": "gray-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.01158472681716605,
-          "green": 0.027607331822166847,
-          "blue": 0.07187579196071325
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "B0112D35-D304-532D-A4A7-83C55272E4DF",
-        "name": "zinc-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9802559798510232,
-          "green": 0.980255979851023,
-          "blue": 0.9802559798510232
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "FEF94CC1-E7CB-5B6F-AA93-4B347E2AE619",
-        "name": "zinc-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9563849496780154,
-          "green": 0.9563853273817101,
-          "blue": 0.9593429413177962
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "DFFEF194-5399-5E2B-BDBF-3353B375AB1E",
-        "name": "zinc-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8944767219112579,
-          "green": 0.8944769095405372,
-          "blue": 0.9061506216932224
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "7BD6DFB0-D0EE-53A2-A00D-A2F840D0B6B5",
-        "name": "zinc-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8310875321463251,
-          "green": 0.8310831943235726,
-          "blue": 0.8483446141912064
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "A221C44E-F38D-5AA7-A2EB-2227E01E7DE9",
-        "name": "zinc-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6226133255430643,
-          "green": 0.6225615603365657,
-          "blue": 0.6633595925781616
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "D5D79860-2FF0-53D4-8539-6B0B77D542E4",
-        "name": "zinc-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.4429952041143081,
-          "green": 0.4429292163792985,
-          "blue": 0.4838042927551956
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "7A79BD57-BD09-5B19-8A86-ADEB33768F4B",
-        "name": "zinc-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.3211818615075121,
-          "green": 0.32109020186049,
-          "blue": 0.3621075403712351
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "AD61DDC5-65C8-535E-A4E2-70201D13EE04",
-        "name": "zinc-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.24648490356540942,
-          "green": 0.2464470673269114,
-          "blue": 0.27646490245035016
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "FE1411A2-F126-51BC-8177-7123AED9C097",
-        "name": "zinc-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.15289691637693298,
-          "green": 0.15288684808701208,
-          "blue": 0.16577024780700778
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "AF22A68F-82F3-51E9-903D-04A3292B1551",
-        "name": "zinc-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.09379639112638316,
-          "green": 0.09379291703454032,
-          "blue": 0.10583165480724857
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "3EB81ED7-3688-5A78-97CA-40935739EEB4",
-        "name": "zinc-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.035374260841250706,
-          "green": 0.03535899966747565,
-          "blue": 0.04431813654457031
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "38DE57D8-04D4-5062-85C8-B77AB8ACD16B",
-        "name": "neutral-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9802559798510232,
-          "green": 0.980255979851023,
-          "blue": 0.9802559798510232
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "BF0ED5F8-8605-5A5A-9C39-8F5BA85F6FC4",
-        "name": "neutral-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9605869869200186,
-          "green": 0.9605869869200184,
-          "blue": 0.9605869869200186
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "261E1479-20C8-52A2-997A-F1211A6C142A",
-        "name": "neutral-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8981606635856448,
-          "green": 0.8981606635856446,
-          "blue": 0.8981606635856447
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "26EBE94C-B333-5B91-909F-A86E3ED8A6A3",
-        "name": "neutral-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8314444503075208,
-          "green": 0.8314444503075205,
-          "blue": 0.8314444503075206
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "DE2A3EB0-A2AE-5811-9414-FB532FC0FF64",
-        "name": "neutral-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6301632042746146,
-          "green": 0.6301632042746145,
-          "blue": 0.6301632042746145
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "BA17042D-BB93-5DDF-A62E-98FE3D581C1D",
-        "name": "neutral-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.4515192429625185,
-          "green": 0.4515192429625184,
-          "blue": 0.4515192429625185
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "3A126832-B47D-59C2-9F55-3F279957B532",
-        "name": "neutral-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.3219928468994367,
-          "green": 0.3219928468994366,
-          "blue": 0.32199284689943664
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "7A5C50B2-F28D-5B3B-AE7A-6BA48887F13B",
-        "name": "neutral-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2504709015424898,
-          "green": 0.2504709015424897,
-          "blue": 0.2504709015424898
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "5A82B013-4548-5099-AEFF-E2193C52FE66",
-        "name": "neutral-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.14938207763559952,
-          "green": 0.1493820776355995,
-          "blue": 0.1493820776355995
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "A74BA2D2-46D6-5CCF-9F9A-D15447E2B0B9",
-        "name": "neutral-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.09052740524946687,
-          "green": 0.09052740524946681,
-          "blue": 0.09052740524946684
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "D903A708-FF26-550B-9A05-B93F633ACF93",
-        "name": "neutral-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.039388234999999994,
-          "green": 0.039388234999999966,
-          "blue": 0.039388234999999994
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "917F9CCB-C9C8-5D1B-88AB-C030FE91C4C5",
-        "name": "stone-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9805331813597379,
-          "green": 0.9805335062292134,
-          "blue": 0.9775605364885184
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "6E67CDD2-2136-55EB-92C2-DC838490AC43",
-        "name": "stone-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9608630861664545,
-          "green": 0.960863455722616,
-          "blue": 0.9579018561508262
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E0936602-8030-5492-801C-3C0DCB2C8B2D",
-        "name": "stone-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9067104284114347,
-          "green": 0.8975317470031261,
-          "blue": 0.8929412664587454
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "0A109F4D-2A0D-5E8E-9E0E-363B532414C2",
-        "name": "stone-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.841165816892225,
-          "green": 0.8275092269394144,
-          "blue": 0.8184011122745035
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "95009F91-1E41-52D7-B277-329F30970B48",
-        "name": "stone-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6521305635454824,
-          "green": 0.6262227267183842,
-          "blue": 0.6089382265532824
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "4C933ECB-B6AD-5036-930E-11B6FF396F35",
-        "name": "stone-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.4727141790875173,
-          "green": 0.4420021517775611,
-          "blue": 0.4200373006027184
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "256E12F8-ECBE-5F90-9D7F-B6BC79C2DF4D",
-        "name": "stone-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.3426504714615102,
-          "green": 0.32467542521934084,
-          "blue": 0.3021830556172036
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "3721FD98-D5EB-5BD2-9189-73EA721E6436",
-        "name": "stone-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2684879734527337,
-          "green": 0.2504235021060844,
-          "blue": 0.23233119429809485
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C00716B3-80A3-53D6-BA1C-034B4A493267",
-        "name": "stone-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.16162397505748374,
-          "green": 0.1441947918320332,
-          "blue": 0.13983765564387857
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "9CA1E4D5-3B4C-525E-B9B9-EAA1E289994D",
-        "name": "stone-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.10951207057580714,
-          "green": 0.09798768012353237,
-          "blue": 0.09030699498911524
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "D1D1EECB-E202-5A79-AA65-42AB097987DC",
-        "name": "stone-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.04695921239450528,
-          "green": 0.039356111711251834,
-          "blue": 0.03554448401415078
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "4C3E49AC-71B3-554E-B1C0-F19B2DA03C71",
-        "name": "mauve-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9802559798510232,
-          "green": 0.980255979851023,
-          "blue": 0.9802559798510232
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "A26F5210-421E-5CF4-B046-13E4F4C7801A",
-        "name": "mauve-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.952033917805455,
-          "green": 0.945093112633628,
-          "blue": 0.9520338482499985
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "747644D1-2E83-5E6C-9854-6F2611B49F7A",
-        "name": "mauve-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9056048017450522,
-          "green": 0.8941535229667241,
-          "blue": 0.9056035857930864
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "8A3F9370-8F98-506C-857F-9491A5999BED",
-        "name": "mauve-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.842578102975322,
-          "green": 0.8155398349372713,
-          "blue": 0.8425781645000718
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "8D5BF6B6-41D5-5975-BF64-ACEB1358F2D3",
-        "name": "mauve-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6581094816958897,
-          "green": 0.619716051217589,
-          "blue": 0.6619483194377765
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "F68F550C-2B17-5224-89D0-8974740EAEB4",
-        "name": "mauve-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.4747966602339749,
-          "green": 0.41145030589193954,
-          "blue": 0.4827284446134487
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "6D615AA9-C629-5D28-9E4A-AC1EE1A57BA3",
-        "name": "mauve-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.34861325434549856,
-          "green": 0.29829444431655644,
-          "blue": 0.3563410306542207
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E9A3D442-DE98-597C-98B3-78BED2110C1E",
-        "name": "mauve-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2743740323350932,
-          "green": 0.2239768904640475,
-          "blue": 0.27823393779568995
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C9917ACD-BDBF-5B99-896C-50198F48068C",
-        "name": "mauve-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.1648955646582243,
-          "green": 0.12950568446758504,
-          "blue": 0.1727632886968541
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "D74E8FD0-BD66-5308-8894-6FF4C5265CD0",
-        "name": "mauve-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.11363109432995153,
-          "green": 0.08585029503044789,
-          "blue": 0.11759881527883942
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E38607CF-F6B3-50E5-87FF-D6812D679B8A",
-        "name": "mauve-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.04670173777262281,
-          "green": 0.03527613295210638,
-          "blue": 0.046694371428411145
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C75E87FF-513B-5758-87BA-FCCAB34E8ADF",
-        "name": "olive-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9850226354202211,
-          "green": 0.9850314472485432,
-          "blue": 0.9761005760310483
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E1392AD8-729E-5267-AA57-38B9D5C53132",
-        "name": "olive-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9567246955692078,
-          "green": 0.9567269908055721,
-          "blue": 0.9419166744660435
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "1852761F-84C8-507B-BA15-0E753A643433",
-        "name": "olive-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9104167539238439,
-          "green": 0.9104012444881816,
-          "blue": 0.8898484497833328
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "68636D2F-106E-5734-9514-E6A09AF56CCE",
-        "name": "olive-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8471263329731673,
-          "green": 0.8471101554148849,
-          "blue": 0.8152063562397178
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "1FBB2871-F5E2-5AD9-A178-61D05560695A",
-        "name": "olive-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6706212504172226,
-          "green": 0.6706162770998256,
-          "blue": 0.6120181095962147
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "05CE6A92-1A17-599C-8011-19922F6A2BE1",
-        "name": "olive-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.48598724756612116,
-          "green": 0.4859375944012347,
-          "blue": 0.40354257342197636
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "EF1ABA79-9441-5697-A5E0-4E51290D1BB6",
-        "name": "olive-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.3565354009516769,
-          "green": 0.356493037557573,
-          "blue": 0.2935766043920841
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "4D883273-9233-51AD-8A9F-89AC380B8758",
-        "name": "olive-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2789824361388478,
-          "green": 0.27897022757746215,
-          "blue": 0.22332637774160685
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "0FE40AEF-8E87-5AAD-B399-50441E3ABC53",
-        "name": "olive-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.1686330032373297,
-          "green": 0.16865569955528156,
-          "blue": 0.13297344160697125
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "FE4EAA36-FCDD-5C62-BDD2-D2A49557FA22",
-        "name": "olive-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.11350706276442066,
-          "green": 0.11351412772061562,
-          "blue": 0.08610346628681181
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "14FDFB91-6073-589A-9AC6-1FB85899CEE8",
-        "name": "olive-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.04693613004176845,
-          "green": 0.04693897873510188,
-          "blue": 0.035679670131280226
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "8D7EE98D-4394-51EF-946C-887E0ECD99D6",
-        "name": "mist-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9773699180121013,
-          "green": 0.9847586454076155,
-          "blue": 0.984756018116956
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "4BD180FA-5C5D-5B48-AF3B-CDA07B0EF429",
-        "name": "mist-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9459531881302511,
-          "green": 0.9532968925742514,
-          "blue": 0.9532943662581942
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "692BA17C-95F7-57E7-B6F0-C4FEA707F8E0",
-        "name": "mist-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8886658024162282,
-          "green": 0.9060047184786169,
-          "blue": 0.9103311600964351
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C0D5B734-7960-5F25-842A-F33B636C314F",
-        "name": "mist-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8159321560745941,
-          "green": 0.8390741748083703,
-          "blue": 0.846800851200236
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "4EEEAD6B-581B-5320-9A39-42F0CF427F50",
-        "name": "mist-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6124490118941941,
-          "green": 0.658606059027638,
-          "blue": 0.67015799794211
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "63FD0F38-18E5-579C-9DFA-5B5157B4D5C9",
-        "name": "mist-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.4038991946921237,
-          "green": 0.47034401460764136,
-          "blue": 0.48597601017679687
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "7175B62E-74F6-57D4-B7F9-A2628D437AE0",
-        "name": "mist-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.29377944858740906,
-          "green": 0.344807642804056,
-          "blue": 0.3565854011364304
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "89EF3F78-F892-520F-911A-0C27F1D8B135",
-        "name": "mist-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.22415501629823759,
-          "green": 0.2666136479657372,
-          "blue": 0.27818312826233255
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C03604BE-878C-5D74-BB9E-0961C6FBAC04",
-        "name": "mist-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.13247207145364592,
-          "green": 0.16106225816006314,
-          "blue": 0.16924520455189937
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "CE6DA6D4-8AF9-5568-ACB0-2CB71D72DF58",
-        "name": "mist-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.08737917333923137,
-          "green": 0.10583665808989715,
-          "blue": 0.11323936202086712
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "E7AE9505-2F84-5421-96D1-C46D92A893DC",
-        "name": "mist-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.035594686418747225,
-          "green": 0.043389332112089736,
-          "blue": 0.04728466729427582
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "AD6E25A5-014D-5689-8F07-97C114829024",
-        "name": "taupe-50",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9854239134853898,
-          "green": 0.9808246799877477,
-          "blue": 0.9762252936527408
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "82932765-E0E4-5D6C-9005-C5B9FF4A0672",
-        "name": "taupe-100",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9529609749091658,
-          "green": 0.9456480993088335,
-          "blue": 0.9456473297108056
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "5497C6FA-EB82-571B-9504-791450570186",
-        "name": "taupe-200",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.9113293178997287,
-          "green": 0.8941443304131874,
-          "blue": 0.8898502243602906
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "307038EB-BFAF-5E56-B66A-FF6AA9D3D391",
-        "name": "taupe-300",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.8465771556893801,
-          "green": 0.823703940379619,
-          "blue": 0.8160627691703753
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "104A050A-F3F4-5F70-9A2B-E6AE36C75DAE",
-        "name": "taupe-400",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.6703284277027247,
-          "green": 0.6276249463502982,
-          "blue": 0.6120686639095363
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "9B62C419-4048-5D9B-9566-8FAB9EA2A3E5",
-        "name": "taupe-500",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.48600667034599015,
-          "green": 0.42756673820996294,
-          "blue": 0.4041763268901671
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "18BAE87F-3148-5667-950F-A5CDEFFC923D",
-        "name": "taupe-600",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.3558764773615004,
-          "green": 0.30980529570062054,
-          "blue": 0.29446192797543824
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "3B72E116-7623-5EBB-A093-E3447D241A4B",
-        "name": "taupe-700",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.2781685548050247,
-          "green": 0.23581519258800404,
-          "blue": 0.22427115096362849
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "5276E824-BDBC-5DFA-AD42-C5D9E6BCFA04",
-        "name": "taupe-800",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.16864179239705823,
-          "green": 0.14181807768426152,
-          "blue": 0.13415173873549768
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "A5AD000A-52DF-5319-94E6-AA458E1ABC3C",
-        "name": "taupe-900",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.1136555486554594,
-          "green": 0.0938806295847194,
-          "blue": 0.08595721566109293
-        }
-      },
-      {
-        "_class": "swatch",
-        "do_objectID": "C40D6D35-FA2D-5BC9-B055-223D38B3A79E",
-        "name": "taupe-950",
-        "value": {
-          "_class": "color",
-          "alpha": 1,
-          "red": 0.046956694788157886,
-          "green": 0.0393577379387913,
-          "blue": 0.035540754813966735
-        }
-      },
-      {
-        "_class": "swatch",
         "do_objectID": "288C7E93-7D29-5586-A737-D53EE8A58C40",
         "name": "red-50",
         "value": {
@@ -3470,6 +2282,1194 @@
           "red": 0.3031469644083954,
           "green": 0.00881982717138775,
           "blue": 0.0958587090875197
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "33DF432D-4698-5685-B2F3-BE08BB24475C",
+        "name": "slate-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9731488522540445,
+          "green": 0.9800426054662709,
+          "blue": 0.9869375219463618
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "501B01FC-CD49-510D-A2BD-4AC6FD86E1B3",
+        "name": "slate-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9444747089424705,
+          "green": 0.9604953704340587,
+          "blue": 0.9765152883989353
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "52ABAAD8-559D-58ED-A827-C66545AE3175",
+        "name": "slate-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8859544002236973,
+          "green": 0.9101960351218834,
+          "blue": 0.9425160502172097
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "8B4871B2-B86A-512A-808E-FD1B4D22AB3F",
+        "name": "slate-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.792347876857237,
+          "green": 0.8358279496588404,
+          "blue": 0.887972421651476
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "461BBBAB-8AAB-5A26-8110-BB326257B16F",
+        "name": "slate-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.5648487363231477,
+          "green": 0.6316962763094218,
+          "blue": 0.7252391411445487
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7394868D-A7EE-583B-8766-8BAD901DE793",
+        "name": "slate-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.38391206804084516,
+          "green": 0.4547872213486916,
+          "blue": 0.5566604979380745
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E8105E11-52CB-595E-B1AD-12D6B537B260",
+        "name": "slate-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2709961605079995,
+          "green": 0.33408154858074934,
+          "blue": 0.42418876964238983
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "250F5671-A0D2-5548-ADCE-922ECBEAE4F2",
+        "name": "slate-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.19350013489640724,
+          "green": 0.25526603914854973,
+          "blue": 0.34348723421124183
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "97A7791F-3D41-526C-9E69-EB6720AD9694",
+        "name": "slate-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.112127710305604,
+          "green": 0.16004398467081418,
+          "blue": 0.2386724894066991
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C5E83AFF-0AE2-5F35-B629-F3D9871C2051",
+        "name": "slate-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.057184323544237504,
+          "green": 0.09004246505833136,
+          "blue": 0.1687959959194234
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "37CE1A9B-CD04-5662-A830-19745FF2C368",
+        "name": "slate-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.007429320741766252,
+          "green": 0.0232817494190336,
+          "blue": 0.09250507951914488
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "802FF41E-32D3-5056-8B9A-92C671F32DC9",
+        "name": "gray-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9763942292220026,
+          "green": 0.9809921701981189,
+          "blue": 0.985589520180738
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "AE1F26C4-F2FF-5190-8408-C6BD2FA48610",
+        "name": "gray-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9528385020410947,
+          "green": 0.956931755763118,
+          "blue": 0.9651184315219944
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "8985DDBA-0793-519E-B98C-9631046533EC",
+        "name": "gray-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8983431377629674,
+          "green": 0.9064381730859454,
+          "blue": 0.9226285306518572
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "8C2E085E-1B53-526E-B23E-20A5DE2BA950",
+        "name": "gray-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8190176740578224,
+          "green": 0.8358148741911838,
+          "blue": 0.8610087609476719
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "320B2138-F003-5E5A-A454-A2E346618310",
+        "name": "gray-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6000088092938519,
+          "green": 0.6313951766141662,
+          "blue": 0.6852225804848497
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "53539A39-BC2C-59C1-B077-5233DAD65A95",
+        "name": "gray-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.4154543457320365,
+          "green": 0.447090970999556,
+          "blue": 0.5104967709257804
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "30C0D166-A200-5456-88FA-5B2C95FC3F44",
+        "name": "gray-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2888334530513584,
+          "green": 0.33354592473228023,
+          "blue": 0.39611636404285216
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "34E6E2EE-4353-59BE-9B2E-B08298ABD412",
+        "name": "gray-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.21153233111089903,
+          "green": 0.2550295890096215,
+          "blue": 0.3247052203348353
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E9E23064-C8D9-5685-91D2-5EB122CF92F1",
+        "name": "gray-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.1169734956178679,
+          "green": 0.16075427591841243,
+          "blue": 0.2220155004790907
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "2830FAA8-8DBF-5C78-A812-1413E440D3AE",
+        "name": "gray-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.06452562744067564,
+          "green": 0.09374159032906396,
+          "blue": 0.15678442228058512
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C86DB485-CD79-5261-9F41-1C63DD1A1DE8",
+        "name": "gray-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.01158472681716605,
+          "green": 0.027607331822166847,
+          "blue": 0.07187579196071325
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "B0112D35-D304-532D-A4A7-83C55272E4DF",
+        "name": "zinc-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9802559798510232,
+          "green": 0.980255979851023,
+          "blue": 0.9802559798510232
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "FEF94CC1-E7CB-5B6F-AA93-4B347E2AE619",
+        "name": "zinc-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9563849496780154,
+          "green": 0.9563853273817101,
+          "blue": 0.9593429413177962
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "DFFEF194-5399-5E2B-BDBF-3353B375AB1E",
+        "name": "zinc-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8944767219112579,
+          "green": 0.8944769095405372,
+          "blue": 0.9061506216932224
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7BD6DFB0-D0EE-53A2-A00D-A2F840D0B6B5",
+        "name": "zinc-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8310875321463251,
+          "green": 0.8310831943235726,
+          "blue": 0.8483446141912064
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "A221C44E-F38D-5AA7-A2EB-2227E01E7DE9",
+        "name": "zinc-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6226133255430643,
+          "green": 0.6225615603365657,
+          "blue": 0.6633595925781616
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "D5D79860-2FF0-53D4-8539-6B0B77D542E4",
+        "name": "zinc-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.4429952041143081,
+          "green": 0.4429292163792985,
+          "blue": 0.4838042927551956
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7A79BD57-BD09-5B19-8A86-ADEB33768F4B",
+        "name": "zinc-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.3211818615075121,
+          "green": 0.32109020186049,
+          "blue": 0.3621075403712351
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "AD61DDC5-65C8-535E-A4E2-70201D13EE04",
+        "name": "zinc-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.24648490356540942,
+          "green": 0.2464470673269114,
+          "blue": 0.27646490245035016
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "FE1411A2-F126-51BC-8177-7123AED9C097",
+        "name": "zinc-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.15289691637693298,
+          "green": 0.15288684808701208,
+          "blue": 0.16577024780700778
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "AF22A68F-82F3-51E9-903D-04A3292B1551",
+        "name": "zinc-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.09379639112638316,
+          "green": 0.09379291703454032,
+          "blue": 0.10583165480724857
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "3EB81ED7-3688-5A78-97CA-40935739EEB4",
+        "name": "zinc-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.035374260841250706,
+          "green": 0.03535899966747565,
+          "blue": 0.04431813654457031
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "38DE57D8-04D4-5062-85C8-B77AB8ACD16B",
+        "name": "neutral-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9802559798510232,
+          "green": 0.980255979851023,
+          "blue": 0.9802559798510232
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "BF0ED5F8-8605-5A5A-9C39-8F5BA85F6FC4",
+        "name": "neutral-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9605869869200186,
+          "green": 0.9605869869200184,
+          "blue": 0.9605869869200186
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "261E1479-20C8-52A2-997A-F1211A6C142A",
+        "name": "neutral-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8981606635856448,
+          "green": 0.8981606635856446,
+          "blue": 0.8981606635856447
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "26EBE94C-B333-5B91-909F-A86E3ED8A6A3",
+        "name": "neutral-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8314444503075208,
+          "green": 0.8314444503075205,
+          "blue": 0.8314444503075206
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "DE2A3EB0-A2AE-5811-9414-FB532FC0FF64",
+        "name": "neutral-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6301632042746146,
+          "green": 0.6301632042746145,
+          "blue": 0.6301632042746145
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "BA17042D-BB93-5DDF-A62E-98FE3D581C1D",
+        "name": "neutral-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.4515192429625185,
+          "green": 0.4515192429625184,
+          "blue": 0.4515192429625185
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "3A126832-B47D-59C2-9F55-3F279957B532",
+        "name": "neutral-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.3219928468994367,
+          "green": 0.3219928468994366,
+          "blue": 0.32199284689943664
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7A5C50B2-F28D-5B3B-AE7A-6BA48887F13B",
+        "name": "neutral-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2504709015424898,
+          "green": 0.2504709015424897,
+          "blue": 0.2504709015424898
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "5A82B013-4548-5099-AEFF-E2193C52FE66",
+        "name": "neutral-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.14938207763559952,
+          "green": 0.1493820776355995,
+          "blue": 0.1493820776355995
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "A74BA2D2-46D6-5CCF-9F9A-D15447E2B0B9",
+        "name": "neutral-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.09052740524946687,
+          "green": 0.09052740524946681,
+          "blue": 0.09052740524946684
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "D903A708-FF26-550B-9A05-B93F633ACF93",
+        "name": "neutral-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.039388234999999994,
+          "green": 0.039388234999999966,
+          "blue": 0.039388234999999994
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "917F9CCB-C9C8-5D1B-88AB-C030FE91C4C5",
+        "name": "stone-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9805331813597379,
+          "green": 0.9805335062292134,
+          "blue": 0.9775605364885184
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "6E67CDD2-2136-55EB-92C2-DC838490AC43",
+        "name": "stone-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9608630861664545,
+          "green": 0.960863455722616,
+          "blue": 0.9579018561508262
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E0936602-8030-5492-801C-3C0DCB2C8B2D",
+        "name": "stone-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9067104284114347,
+          "green": 0.8975317470031261,
+          "blue": 0.8929412664587454
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "0A109F4D-2A0D-5E8E-9E0E-363B532414C2",
+        "name": "stone-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.841165816892225,
+          "green": 0.8275092269394144,
+          "blue": 0.8184011122745035
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "95009F91-1E41-52D7-B277-329F30970B48",
+        "name": "stone-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6521305635454824,
+          "green": 0.6262227267183842,
+          "blue": 0.6089382265532824
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4C933ECB-B6AD-5036-930E-11B6FF396F35",
+        "name": "stone-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.4727141790875173,
+          "green": 0.4420021517775611,
+          "blue": 0.4200373006027184
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "256E12F8-ECBE-5F90-9D7F-B6BC79C2DF4D",
+        "name": "stone-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.3426504714615102,
+          "green": 0.32467542521934084,
+          "blue": 0.3021830556172036
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "3721FD98-D5EB-5BD2-9189-73EA721E6436",
+        "name": "stone-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2684879734527337,
+          "green": 0.2504235021060844,
+          "blue": 0.23233119429809485
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C00716B3-80A3-53D6-BA1C-034B4A493267",
+        "name": "stone-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.16162397505748374,
+          "green": 0.1441947918320332,
+          "blue": 0.13983765564387857
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "9CA1E4D5-3B4C-525E-B9B9-EAA1E289994D",
+        "name": "stone-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.10951207057580714,
+          "green": 0.09798768012353237,
+          "blue": 0.09030699498911524
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "D1D1EECB-E202-5A79-AA65-42AB097987DC",
+        "name": "stone-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.04695921239450528,
+          "green": 0.039356111711251834,
+          "blue": 0.03554448401415078
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4C3E49AC-71B3-554E-B1C0-F19B2DA03C71",
+        "name": "mauve-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9802559798510232,
+          "green": 0.980255979851023,
+          "blue": 0.9802559798510232
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "A26F5210-421E-5CF4-B046-13E4F4C7801A",
+        "name": "mauve-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.952033917805455,
+          "green": 0.945093112633628,
+          "blue": 0.9520338482499985
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "747644D1-2E83-5E6C-9854-6F2611B49F7A",
+        "name": "mauve-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9056048017450522,
+          "green": 0.8941535229667241,
+          "blue": 0.9056035857930864
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "8A3F9370-8F98-506C-857F-9491A5999BED",
+        "name": "mauve-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.842578102975322,
+          "green": 0.8155398349372713,
+          "blue": 0.8425781645000718
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "8D5BF6B6-41D5-5975-BF64-ACEB1358F2D3",
+        "name": "mauve-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6581094816958897,
+          "green": 0.619716051217589,
+          "blue": 0.6619483194377765
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "F68F550C-2B17-5224-89D0-8974740EAEB4",
+        "name": "mauve-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.4747966602339749,
+          "green": 0.41145030589193954,
+          "blue": 0.4827284446134487
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "6D615AA9-C629-5D28-9E4A-AC1EE1A57BA3",
+        "name": "mauve-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.34861325434549856,
+          "green": 0.29829444431655644,
+          "blue": 0.3563410306542207
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E9A3D442-DE98-597C-98B3-78BED2110C1E",
+        "name": "mauve-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2743740323350932,
+          "green": 0.2239768904640475,
+          "blue": 0.27823393779568995
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C9917ACD-BDBF-5B99-896C-50198F48068C",
+        "name": "mauve-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.1648955646582243,
+          "green": 0.12950568446758504,
+          "blue": 0.1727632886968541
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "D74E8FD0-BD66-5308-8894-6FF4C5265CD0",
+        "name": "mauve-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.11363109432995153,
+          "green": 0.08585029503044789,
+          "blue": 0.11759881527883942
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E38607CF-F6B3-50E5-87FF-D6812D679B8A",
+        "name": "mauve-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.04670173777262281,
+          "green": 0.03527613295210638,
+          "blue": 0.046694371428411145
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C75E87FF-513B-5758-87BA-FCCAB34E8ADF",
+        "name": "olive-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9850226354202211,
+          "green": 0.9850314472485432,
+          "blue": 0.9761005760310483
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E1392AD8-729E-5267-AA57-38B9D5C53132",
+        "name": "olive-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9567246955692078,
+          "green": 0.9567269908055721,
+          "blue": 0.9419166744660435
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "1852761F-84C8-507B-BA15-0E753A643433",
+        "name": "olive-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9104167539238439,
+          "green": 0.9104012444881816,
+          "blue": 0.8898484497833328
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "68636D2F-106E-5734-9514-E6A09AF56CCE",
+        "name": "olive-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8471263329731673,
+          "green": 0.8471101554148849,
+          "blue": 0.8152063562397178
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "1FBB2871-F5E2-5AD9-A178-61D05560695A",
+        "name": "olive-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6706212504172226,
+          "green": 0.6706162770998256,
+          "blue": 0.6120181095962147
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "05CE6A92-1A17-599C-8011-19922F6A2BE1",
+        "name": "olive-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.48598724756612116,
+          "green": 0.4859375944012347,
+          "blue": 0.40354257342197636
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "EF1ABA79-9441-5697-A5E0-4E51290D1BB6",
+        "name": "olive-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.3565354009516769,
+          "green": 0.356493037557573,
+          "blue": 0.2935766043920841
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4D883273-9233-51AD-8A9F-89AC380B8758",
+        "name": "olive-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2789824361388478,
+          "green": 0.27897022757746215,
+          "blue": 0.22332637774160685
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "0FE40AEF-8E87-5AAD-B399-50441E3ABC53",
+        "name": "olive-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.1686330032373297,
+          "green": 0.16865569955528156,
+          "blue": 0.13297344160697125
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "FE4EAA36-FCDD-5C62-BDD2-D2A49557FA22",
+        "name": "olive-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.11350706276442066,
+          "green": 0.11351412772061562,
+          "blue": 0.08610346628681181
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "14FDFB91-6073-589A-9AC6-1FB85899CEE8",
+        "name": "olive-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.04693613004176845,
+          "green": 0.04693897873510188,
+          "blue": 0.035679670131280226
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "8D7EE98D-4394-51EF-946C-887E0ECD99D6",
+        "name": "mist-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9773699180121013,
+          "green": 0.9847586454076155,
+          "blue": 0.984756018116956
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4BD180FA-5C5D-5B48-AF3B-CDA07B0EF429",
+        "name": "mist-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9459531881302511,
+          "green": 0.9532968925742514,
+          "blue": 0.9532943662581942
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "692BA17C-95F7-57E7-B6F0-C4FEA707F8E0",
+        "name": "mist-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8886658024162282,
+          "green": 0.9060047184786169,
+          "blue": 0.9103311600964351
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C0D5B734-7960-5F25-842A-F33B636C314F",
+        "name": "mist-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8159321560745941,
+          "green": 0.8390741748083703,
+          "blue": 0.846800851200236
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4EEEAD6B-581B-5320-9A39-42F0CF427F50",
+        "name": "mist-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6124490118941941,
+          "green": 0.658606059027638,
+          "blue": 0.67015799794211
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "63FD0F38-18E5-579C-9DFA-5B5157B4D5C9",
+        "name": "mist-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.4038991946921237,
+          "green": 0.47034401460764136,
+          "blue": 0.48597601017679687
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7175B62E-74F6-57D4-B7F9-A2628D437AE0",
+        "name": "mist-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.29377944858740906,
+          "green": 0.344807642804056,
+          "blue": 0.3565854011364304
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "89EF3F78-F892-520F-911A-0C27F1D8B135",
+        "name": "mist-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.22415501629823759,
+          "green": 0.2666136479657372,
+          "blue": 0.27818312826233255
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C03604BE-878C-5D74-BB9E-0961C6FBAC04",
+        "name": "mist-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.13247207145364592,
+          "green": 0.16106225816006314,
+          "blue": 0.16924520455189937
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "CE6DA6D4-8AF9-5568-ACB0-2CB71D72DF58",
+        "name": "mist-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.08737917333923137,
+          "green": 0.10583665808989715,
+          "blue": 0.11323936202086712
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "E7AE9505-2F84-5421-96D1-C46D92A893DC",
+        "name": "mist-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.035594686418747225,
+          "green": 0.043389332112089736,
+          "blue": 0.04728466729427582
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "AD6E25A5-014D-5689-8F07-97C114829024",
+        "name": "taupe-50",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9854239134853898,
+          "green": 0.9808246799877477,
+          "blue": 0.9762252936527408
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "82932765-E0E4-5D6C-9005-C5B9FF4A0672",
+        "name": "taupe-100",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9529609749091658,
+          "green": 0.9456480993088335,
+          "blue": 0.9456473297108056
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "5497C6FA-EB82-571B-9504-791450570186",
+        "name": "taupe-200",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.9113293178997287,
+          "green": 0.8941443304131874,
+          "blue": 0.8898502243602906
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "307038EB-BFAF-5E56-B66A-FF6AA9D3D391",
+        "name": "taupe-300",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.8465771556893801,
+          "green": 0.823703940379619,
+          "blue": 0.8160627691703753
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "104A050A-F3F4-5F70-9A2B-E6AE36C75DAE",
+        "name": "taupe-400",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.6703284277027247,
+          "green": 0.6276249463502982,
+          "blue": 0.6120686639095363
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "9B62C419-4048-5D9B-9566-8FAB9EA2A3E5",
+        "name": "taupe-500",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.48600667034599015,
+          "green": 0.42756673820996294,
+          "blue": 0.4041763268901671
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "18BAE87F-3148-5667-950F-A5CDEFFC923D",
+        "name": "taupe-600",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.3558764773615004,
+          "green": 0.30980529570062054,
+          "blue": 0.29446192797543824
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "3B72E116-7623-5EBB-A093-E3447D241A4B",
+        "name": "taupe-700",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.2781685548050247,
+          "green": 0.23581519258800404,
+          "blue": 0.22427115096362849
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "5276E824-BDBC-5DFA-AD42-C5D9E6BCFA04",
+        "name": "taupe-800",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.16864179239705823,
+          "green": 0.14181807768426152,
+          "blue": 0.13415173873549768
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "A5AD000A-52DF-5319-94E6-AA458E1ABC3C",
+        "name": "taupe-900",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.1136555486554594,
+          "green": 0.0938806295847194,
+          "blue": 0.08595721566109293
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C40D6D35-FA2D-5BC9-B055-223D38B3A79E",
+        "name": "taupe-950",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "red": 0.046956694788157886,
+          "green": 0.0393577379387913,
+          "blue": 0.035540754813966735
         }
       },
       {
