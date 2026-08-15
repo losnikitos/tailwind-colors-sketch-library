@@ -1,6 +1,8 @@
+![Tailwind Colors for Sketch](doc/cover.png)
+
 # Tailwind Colors for Sketch
 
-A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://tailwindcss.com/docs/colors) v4 palette as native color variables (`blue-500`, `slate-900`, …).
+A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://tailwindcss.com/docs/colors) 4.3 palette as native color variables (`blue-500`, `slate-900`, …).
 
 ## Installation
 
