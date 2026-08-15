@@ -31,6 +31,8 @@
   ],
   "menu": {
     "title": "Tailwind Colors",
-    "items": ["add-library"]
+    "items": [
+      "add-library"
+    ]
   }
 }
