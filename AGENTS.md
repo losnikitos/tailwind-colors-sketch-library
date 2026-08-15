@@ -1,13 +1,11 @@
-# Sketch Tailwind Primitives Library
+# Sketch Tailwind Colors Library
 
-This project is dedicated to building a Sketch App Library that implements Tailwind CSS primitives, providing a bridge between Tailwind's design tokens and Sketch.
+This project is a Sketch App Library of the Tailwind CSS v4 color palette, so designers can use the same color tokens in Sketch as in Tailwind-based implementations.
 
 ## Project Goal
-Create a comprehensive Sketch Library that allows designers to use Tailwind primitives (colors, spacing, typography, etc.) directly within Sketch, ensuring consistency with Tailwind-based implementations.
+Ship the full Tailwind CSS v4 palette as Sketch color variables (swatches) named `family-shade` (for example `red-100`) as a flat list, plus a labeled canvas grid of swatch-linked squares. A Sketch plugin copies the generated library into Application Support and registers it with `Library.getLibraryForDocumentAtPath` on startup.
 
-## Current Focus
-- **Colors**: The full Tailwind CSS v4 palette as Sketch color variables (swatches) named `family-shade` (for example `red-100`) as a flat list, plus a labeled canvas grid of swatch-linked squares.
-- **Plugin**: A Sketch plugin that copies the generated library into Application Support and registers it with `Library.getLibraryForDocumentAtPath` on startup.
+This library is colors only. Do not add other Tailwind primitives (spacing, typography, shadows, etc.).
 
 ## Repository Structure
 - `src/`: Contains the raw JSON and asset structure of the Sketch file. Sketch files are essentially zipped directories, and we manage the source in this exploded format to allow for easier manipulation and version control.
@@ -32,7 +30,8 @@ make install
 # Regenerate Sketch JSON from Tailwind colors only
 npm run generate
 
-# Publish a GitHub release, update .appcast.xml, and submit to the Sketch plugin listing
+# Publish a GitHub release, update .appcast.xml, and submit to the Sketch plugin listing.
+# Do not add an npm `version` script: skpm parses `npm version` stdout as the git tag.
 npx skpm publish patch   # or minor / major / 1.2.0
 ```
 
@@ -43,5 +42,5 @@ When working on this repository, ensure that:
 1. Changes to the Sketch document are reflected in the `src/` directory.
 2. Plugin behavior lives in `plugin/` (manifest + scripts). Do not edit the generated `.sketchplugin` bundle by hand.
 3. The `Makefile` is used to bundle the final `.sketch` file and plugin. Publishing uses `skpm` (`package.json` `skpm` config + `plugin/manifest.json` `appcast`).
-4. Documentation is updated as new primitives (like spacing or shadows) are added.
+4. Stay scoped to colors. Do not add other Tailwind primitives (spacing, typography, shadows, etc.).
 5. Consult `node_modules/@sketch-hq/sketch-file-format/dist/*.schema.json` when adding or changing Sketch document structure, so generated JSON matches the official file format.

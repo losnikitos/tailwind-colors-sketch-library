@@ -20,7 +20,6 @@
   "scripts": {
     "generate": "node scripts/generate-colors.mjs",
     "build": "make",
-    "version": "node scripts/sync-plugin-version.mjs && git add plugin/manifest.json",
     "publish:plugin": "skpm publish"
   },
   "dependencies": {

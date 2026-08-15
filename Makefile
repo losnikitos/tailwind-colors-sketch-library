@@ -23,7 +23,8 @@ sketch: generate
 plugin: sketch
 	rm -rf $(PLUGIN) $(PLUGIN_ZIP)
 	mkdir -p $(PLUGIN)/Contents/Sketch $(PLUGIN)/Contents/Resources
-	COPYFILE_DISABLE=1 cp $(PLUGIN_SRC)/manifest.json $(PLUGIN_SRC)/add-library.js $(PLUGIN)/Contents/Sketch/
+	COPYFILE_DISABLE=1 cp $(PLUGIN_SRC)/add-library.js $(PLUGIN)/Contents/Sketch/
+	node scripts/sync-plugin-version.mjs $(PLUGIN)/Contents/Sketch/manifest.json
 	COPYFILE_DISABLE=1 sips -z 128 128 $(ICON_SRC) --out $(PLUGIN)/Contents/Resources/icon.png >/dev/null
 	COPYFILE_DISABLE=1 cp $(SKETCH) $(PLUGIN)/Contents/Resources/$(SKETCH)
 	find $(PLUGIN) -name '._*' -delete
