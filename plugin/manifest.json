@@ -6,6 +6,7 @@
   "homepage": "https://github.com/losnikitos/tailwind-colors-sketch-library",
   "version": "1.0.0",
   "identifier": "com.losnikitos.tailwind-colors",
+  "appcast": "https://raw.githubusercontent.com/losnikitos/tailwind-colors-sketch-library/main/.appcast.xml",
   "compatibleVersion": "2026.2",
   "icon": "icon.png",
   "scope": "application",

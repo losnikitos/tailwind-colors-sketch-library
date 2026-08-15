@@ -1,17 +1,34 @@
 {
   "name": "tailwind-colors-sketch-library",
   "version": "1.0.0",
-  "description": "Tailwind CSS colors for Sketch App",
+  "description": "Adds the Tailwind CSS color palette as a Sketch library",
   "license": "MIT",
+  "author": "Nikita Popov <losnikitos@gmail.com>",
+  "homepage": "https://github.com/losnikitos/tailwind-colors-sketch-library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losnikitos/tailwind-colors-sketch-library.git"
+  },
+  "engines": {
+    "sketch": ">=2026.2"
+  },
+  "skpm": {
+    "name": "Tailwind Colors",
+    "manifest": "plugin/manifest.json",
+    "main": "tailwind-colors.sketchplugin"
+  },
   "scripts": {
     "generate": "node scripts/generate-colors.mjs",
-    "build": "make"
+    "build": "make",
+    "version": "node scripts/sync-plugin-version.mjs && git add plugin/manifest.json",
+    "publish:plugin": "skpm publish"
   },
   "dependencies": {
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@sketch-hq/sketch-file-format": "^6.5.0",
-    "culori": "^4.0.2"
+    "culori": "^4.0.2",
+    "skpm": "^1.3.3"
   }
 }
