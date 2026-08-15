@@ -1,5 +1,7 @@
 # Tailwind Colors for Sketch
 
+[![Download](https://img.shields.io/badge/Download-.sketch-2563eb?style=for-the-badge)](https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch)
+
 A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://tailwindcss.com/docs/colors) v4 palette as native color variables.
 
 Colors keep Tailwind’s names (`blue-500`, `slate-900`, `amber-50`), so designers and engineers can talk about the same tokens.
@@ -20,7 +22,7 @@ Variables are named `family-shade` as a flat list (for example `red-100`). The S
 
 ## Use the library
 
-1. Build `tailwind-colors.sketch` (see below), or open an already built copy.
+1. [Download `tailwind-colors.sketch`](https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch), or build it yourself (see below).
 2. In Sketch, go to **Settings → Libraries** and add `tailwind-colors.sketch`.
 3. Select a layer, open the color picker, and switch to **Variables**.
 4. Choose the **tailwind-colors** library and apply a swatch.
