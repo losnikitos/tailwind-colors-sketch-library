@@ -1,0 +1,16 @@
+{
+  "name": "sketch-test-tailwind",
+  "private": true,
+  "description": "Sketch App Library of Tailwind CSS primitives",
+  "scripts": {
+    "generate": "node scripts/generate-colors.mjs",
+    "build": "make"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@sketch-hq/sketch-file-format": "^6.5.0",
+    "culori": "^4.0.2"
+  }
+}

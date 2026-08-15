@@ -3,13 +3,14 @@ SRC := src
 ZIP := $(NAME).zip
 SKETCH := $(NAME).sketch
 
-.PHONY: all sketch clean
+.PHONY: all sketch generate clean
 
 all: sketch
 
-sketch: $(SKETCH)
+generate:
+	node scripts/generate-colors.mjs
 
-$(SKETCH): $(shell find $(SRC) -type f)
+sketch: generate
 	rm -f $(ZIP) $(SKETCH)
 	cd $(SRC) && zip -r -X ../$(ZIP) .
 	mv $(ZIP) $(SKETCH)
