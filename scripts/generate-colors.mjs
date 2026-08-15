@@ -13,35 +13,17 @@ const PAGE_ID = '26CE87B1-E43D-4749-BBB6-76E67F170B4C'
 const NAMESPACE = '8e2f1c4a-9b3d-4e7f-a1c0-5d6b8e9f0123'
 
 const SKIP = new Set(['inherit', 'current', 'transparent'])
-const SHADES = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950]
-const FAMILIES = [
-  'red',
-  'orange',
-  'amber',
-  'yellow',
-  'lime',
-  'green',
-  'emerald',
-  'teal',
-  'cyan',
-  'sky',
-  'blue',
-  'indigo',
-  'violet',
-  'purple',
-  'fuchsia',
-  'pink',
-  'rose',
-  'slate',
-  'gray',
-  'zinc',
-  'neutral',
-  'stone',
-  'mauve',
-  'olive',
-  'mist',
-  'taupe',
-]
+
+function isPalette(value) {
+  return Boolean(value) && typeof value === 'object' && !Array.isArray(value)
+}
+
+function shadeSort(a, b) {
+  const na = Number(a)
+  const nb = Number(b)
+  if (Number.isFinite(na) && Number.isFinite(nb) && na !== nb) return na - nb
+  return String(a).localeCompare(String(b), undefined, { numeric: true })
+}
 
 const SQUARE = 48
 const GAP = 8
@@ -81,46 +63,47 @@ function cssToSketchColor(cssColor) {
 }
 
 function collectPalette() {
-  const missing = FAMILIES.filter((family) => typeof tailwindColors[family] !== 'object')
-  if (missing.length > 0) {
-    throw new Error(`Missing Tailwind palettes: ${missing.join(', ')}`)
+  const families = []
+  const baseNames = []
+
+  for (const [name, value] of Object.entries(tailwindColors)) {
+    if (SKIP.has(name)) continue
+    if (isPalette(value)) {
+      families.push(name)
+    } else if (typeof value === 'string') {
+      baseNames.push(name)
+    }
   }
 
+  const shadeKeys = new Set()
   const entries = []
-  for (const family of FAMILIES) {
-    for (const shade of SHADES) {
-      const value = tailwindColors[family][String(shade)]
-      if (!value) {
-        throw new Error(`Missing Tailwind color ${family}-${shade}`)
-      }
+  for (const family of families) {
+    const scale = tailwindColors[family]
+    const familyShades = Object.keys(scale).sort(shadeSort)
+    for (const shade of familyShades) {
+      shadeKeys.add(shade)
       entries.push({
-        name: `${family}/${shade}`,
+        name: `${family}-${shade}`,
         family,
-        shade: String(shade),
-        css: value,
+        shade,
+        css: scale[shade],
       })
     }
   }
 
-  for (const name of ['black', 'white']) {
-    if (typeof tailwindColors[name] !== 'string') {
-      throw new Error(`Missing Tailwind color ${name}`)
-    }
+  for (const name of baseNames) {
     entries.push({ name, family: 'base', shade: name, css: tailwindColors[name] })
   }
 
-  const unexpected = Object.keys(tailwindColors).filter(
-    (key) => !SKIP.has(key) && key !== 'black' && key !== 'white' && !FAMILIES.includes(key),
-  )
-  if (unexpected.length > 0) {
-    throw new Error(`Unmapped Tailwind colors: ${unexpected.join(', ')}`)
+  return {
+    families,
+    shades: [...shadeKeys].sort(shadeSort),
+    entries: entries.map((entry) => {
+      const color = cssToSketchColor(entry.css)
+      const swatchID = uuidV5(`swatch:${entry.name}`)
+      return { ...entry, color, swatchID }
+    }),
   }
-
-  return entries.map((entry) => {
-    const color = cssToSketchColor(entry.css)
-    const swatchID = uuidV5(`swatch:${entry.name}`)
-    return { ...entry, color, swatchID }
-  })
 }
 
 function exportOptions() {
@@ -341,9 +324,11 @@ function gridPosition(col, row) {
   }
 }
 
-function buildArtboard(palette) {
-  const rows = FAMILIES.length + 1
-  const cols = SHADES.length
+function buildArtboard({ families, shades, entries }) {
+  const byName = new Map(entries.map((entry) => [entry.name, entry]))
+  const baseEntries = entries.filter((entry) => entry.family === 'base')
+  const rows = families.length + (baseEntries.length > 0 ? 1 : 0)
+  const cols = shades.length
   const gridX = PAD + LABEL_W + GAP
   const gridY = PAD + HEADER_H + GAP
   const width = gridX + cols * (SQUARE + GAP) - GAP + PAD
@@ -354,34 +339,36 @@ function buildArtboard(palette) {
     const { x } = gridPosition(col, 0)
     layers.push(
       makeText(
-        `header:${SHADES[col]}`,
-        String(SHADES[col]),
+        `header:${shades[col]}`,
+        String(shades[col]),
         { x, y: PAD, width: SQUARE, height: HEADER_H },
         2,
       ),
     )
   }
 
-  FAMILIES.forEach((family, row) => {
+  families.forEach((family, row) => {
     const { y } = gridPosition(0, row)
     layers.push(
       makeText(family, family, { x: PAD, y, width: LABEL_W, height: SQUARE }, 1),
     )
-    SHADES.forEach((shade, col) => {
-      const entry = palette.find((item) => item.name === `${family}/${shade}`)
+    shades.forEach((shade, col) => {
+      const entry = byName.get(`${family}-${shade}`)
+      if (!entry) return
       const pos = gridPosition(col, row)
       layers.push(makeRectangle(entry, pos.x, pos.y))
     })
   })
 
-  const baseRow = FAMILIES.length
-  const { y: baseY } = gridPosition(0, baseRow)
-  layers.push(makeText('base', 'base', { x: PAD, y: baseY, width: LABEL_W, height: SQUARE }, 1))
-  ;['black', 'white'].forEach((name, col) => {
-    const entry = palette.find((item) => item.name === name)
-    const pos = gridPosition(col, baseRow)
-    layers.push(makeRectangle(entry, pos.x, pos.y))
-  })
+  if (baseEntries.length > 0) {
+    const baseRow = families.length
+    const { y: baseY } = gridPosition(0, baseRow)
+    layers.push(makeText('base', 'base', { x: PAD, y: baseY, width: LABEL_W, height: SQUARE }, 1))
+    baseEntries.forEach((entry, col) => {
+      const pos = gridPosition(col, baseRow)
+      layers.push(makeRectangle(entry, pos.x, pos.y))
+    })
+  }
 
   return {
     ...layerBase(uuidV5('artboard:Colors'), 'Colors', { x: 0, y: 0, width, height }),
@@ -425,7 +412,7 @@ function main() {
   const page = JSON.parse(readFileSync(pagePath, 'utf8'))
   const artboard = buildArtboard(palette)
 
-  document.sharedSwatches.objects = palette.map((entry) => ({
+  document.sharedSwatches.objects = palette.entries.map((entry) => ({
     _class: 'swatch',
     do_objectID: entry.swatchID,
     name: entry.name,
@@ -450,7 +437,8 @@ function main() {
   rmSync(join(SRC, 'images'), { recursive: true, force: true })
   mkdirSync(join(SRC, 'images'), { recursive: true })
 
-  console.log(`Wrote ${palette.length} Sketch color variables and a ${FAMILIES.length + 1}-row grid.`)
+  const gridRows = palette.families.length + (palette.entries.some((entry) => entry.family === 'base') ? 1 : 0)
+  console.log(`Wrote ${palette.entries.length} Sketch color variables and a ${gridRows}-row grid.`)
 }
 
 main()

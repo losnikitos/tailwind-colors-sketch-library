@@ -6,7 +6,7 @@ This project is dedicated to building a Sketch App Library that implements Tailw
 Create a comprehensive Sketch Library that allows designers to use Tailwind primitives (colors, spacing, typography, etc.) directly within Sketch, ensuring consistency with Tailwind-based implementations.
 
 ## Current Focus
-- **Colors**: The full Tailwind CSS v4 palette as Sketch color variables (swatches) named `family/shade` (for example `red/100`), plus a labeled canvas grid of swatch-linked squares.
+- **Colors**: The full Tailwind CSS v4 palette as Sketch color variables (swatches) named `family-shade` (for example `red-100`) as a flat list, plus a labeled canvas grid of swatch-linked squares.
 
 ## Repository Structure
 - `src/`: Contains the raw JSON and asset structure of the Sketch file. Sketch files are essentially zipped directories, and we manage the source in this exploded format to allow for easier manipulation and version control.
