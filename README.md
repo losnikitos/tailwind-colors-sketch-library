@@ -1,4 +1,4 @@
-![Tailwind Colors for Sketch](doc/cover.png)
+![Tailwind colors for Sketch App](doc/cover.png)
 
 # Tailwind Colors for Sketch
 
@@ -20,7 +20,9 @@ A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://
 
    ![Select the library file](doc/step3.png)
 
-Pick colors from the **Variables** tab in the color picker.
+4. Pick colors from the **Variables** tab in the color picker.
+
+   ![Pick a color variable](doc/step4.png)
 
 ## Build
 
