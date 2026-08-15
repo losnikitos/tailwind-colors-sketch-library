@@ -1,0 +1,35 @@
+{
+  "name": "Tailwind Colors",
+  "description": "Adds the Tailwind CSS color palette as a Sketch library",
+  "author": "Nikita Popov",
+  "authorEmail": "losnikitos@gmail.com",
+  "homepage": "https://github.com/losnikitos/tailwind-colors-sketch-library",
+  "version": "1.0.0",
+  "identifier": "com.losnikitos.tailwind-colors",
+  "compatibleVersion": "2026.2",
+  "icon": "icon.png",
+  "scope": "application",
+  "disableCocoaScriptPreprocessor": true,
+  "commands": [
+    {
+      "name": "Add Tailwind Colors Library",
+      "identifier": "add-library",
+      "script": "add-library.js",
+      "handler": "onRun"
+    },
+    {
+      "name": "Startup",
+      "identifier": "startup",
+      "script": "add-library.js",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "Tailwind Colors",
+    "items": ["add-library"]
+  }
+}

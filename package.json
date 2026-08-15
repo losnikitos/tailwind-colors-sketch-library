@@ -1,5 +1,6 @@
 {
   "name": "tailwind-colors-sketch-library",
+  "version": "1.0.0",
   "description": "Tailwind CSS colors for Sketch App",
   "license": "MIT",
   "scripts": {
