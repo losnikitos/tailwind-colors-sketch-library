@@ -6,7 +6,7 @@ A [Sketch](https://www.sketch.com) library with the full [Tailwind CSS](https://
 
 ## Installation
 
-[Download `tailwind-colors.sketch`](https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch)
+<a href="https://github.com/losnikitos/tailwind-colors-sketch-library/releases/latest/download/tailwind-colors.sketch"><img src="doc/download-button.svg" alt="Download tailwind-colors.sketch" height="56"></a>
 
 1. In Sketch, open **Settings…** (`⌘,`).
 
